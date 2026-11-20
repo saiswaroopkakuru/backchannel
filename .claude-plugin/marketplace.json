@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "backchannel",
+  "version": "3.0.0",
+  "description": "Complete 6-in-1 Claude Code plugin uniting Backchannel, Caveman, Ponytail, Headroom Proxy, Graphify, and Claude-Mem with native MCP tools and zero dependencies.",
+  "owner": {
+    "name": "backchannel"
+  },
+  "plugins": [
+    {
+      "name": "backchannel",
+      "version": "3.0.0",
+      "description": "Complete 6-in-1 Claude Code suite: multi-agent talk dashboard, Caveman voice & doc compression, Ponytail minimalism & repo audit, Headroom in-flight proxy, Graphify 16-lang/PDF graph, and Claude-Mem hybrid semantic memory + MCP server.",
+      "source": "./"
+    }
+  ]
+}

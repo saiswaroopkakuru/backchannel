@@ -1,0 +1,72 @@
+{
+  "name": "backchannel",
+  "version": "3.0.0",
+  "description": "Complete 6-in-1 Claude Code suite: Backchannel multi-agent talk dashboard + Caveman voice & doc compressor + Ponytail minimalism & repo audit + Headroom in-flight API proxy & budgets + Graphify 16-lang/PDF knowledge graph + Claude-Mem hybrid semantic memory & native MCP server.",
+  "author": {
+    "name": "saiswaroopkakuru",
+    "url": "https://github.com/saiswaroopkakuru/backchannel"
+  },
+  "homepage": "https://github.com/saiswaroopkakuru/backchannel",
+  "repository": "https://github.com/saiswaroopkakuru/backchannel",
+  "license": "MIT",
+  "icon": ".claude-plugin/icon.png",
+  "engines": {
+    "claude-code": ">=1.0.0"
+  },
+  "keywords": [
+    "claude-code",
+    "multi-agent",
+    "caveman",
+    "ponytail",
+    "headroom",
+    "graphify",
+    "claude-mem",
+    "mcp",
+    "proxy",
+    "dashboard"
+  ],
+  "userConfig": {
+    "port": {
+      "type": "number",
+      "title": "Dashboard Port",
+      "description": "Local HTTP port for the unified backchannel dashboard server",
+      "default": 4242
+    },
+    "proxyPort": {
+      "type": "number",
+      "title": "Headroom Proxy Port",
+      "description": "Local HTTP port for the transparent Anthropic API compression proxy",
+      "default": 4243
+    },
+    "voice": {
+      "type": "string",
+      "title": "Caveman Voice Mode",
+      "description": "Default output compression voice: off, terse, ultra, or megacave",
+      "default": "terse"
+    },
+    "minimalism": {
+      "type": "string",
+      "title": "Ponytail Minimalism Level",
+      "description": "Code minimalism enforcement ladder: off, lite, full, or ultra",
+      "default": "full"
+    },
+    "compression": {
+      "type": "string",
+      "title": "Headroom Compression Mode",
+      "description": "In-flight proxy and log compression mode: off, on, or aggressive",
+      "default": "on"
+    },
+    "graphAssist": {
+      "type": "boolean",
+      "title": "Graphify Local Graph Routing",
+      "description": "Route Grep/Glob and SessionStart toward .backchannel/graph.json",
+      "default": true
+    },
+    "memoryAssist": {
+      "type": "boolean",
+      "title": "Claude-Mem Auto Recall & Summaries",
+      "description": "Recall project memories on SessionStart and capture fixes/summaries automatically",
+      "default": true
+    }
+  }
+}

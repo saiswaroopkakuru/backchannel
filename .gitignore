@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+.backchannel/
+*.log
+.DS_Store
+Thumbs.db
+backchannel-card.svg
